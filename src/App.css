@@ -1,0 +1,45 @@
+/* App Styles */
+.App {
+  text-align: center;
+  padding: 50px;
+  background-color: #f8f9fa;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Responsive layout for different screen sizes */
+@media (max-width: 1200px) {
+  .card-container {
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    justify-content: center;
+  }
+  .card {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-container {
+    justify-content: center;
+  }
+  .card {
+    max-width: 200px;
+  }
+}

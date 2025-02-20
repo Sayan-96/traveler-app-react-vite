@@ -1,0 +1,8 @@
+To create Vita Project
+npx create-vite@latest --template react
+
+Done. Now run:
+
+  cd .\my-app-vite\
+  npm install
+  npm run dev

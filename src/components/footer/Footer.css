@@ -1,0 +1,81 @@
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Footer Content */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #555;
+}
+
+/* Footer Links */
+.footer-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px; /* Space between links */
+}
+
+.footer-links ul li {
+  display: inline-block;
+}
+
+.footer-links ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+  color: #ff9800;
+}
+
+/* Social Links */
+.social-links a {
+  margin: 0 10px;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #ff9800;
+}
+
+/* Contact Section */
+.footer-contact {
+  background-color: #222;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.footer-contact h3 {
+  font-size: 18px;
+  color: #ff9800; /* Highlight Contact */
+}
+
+.footer-contact p {
+  font-size: 14px;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  padding: 10px;
+  background-color: #222;
+  font-size: 14px;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
